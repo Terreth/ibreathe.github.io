@@ -1,0 +1,33 @@
+<!-- smart conract interface and contract address -->
+<script src="../dist/js/interface.js"></script>
+<script src="../assets/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+
+<script>
+
+   var x = document.referrer;
+
+if (x == "" || x.includes(domain)) {
+    alert("Illegal access");
+}
+else {
+
+    var params = {};
+
+    if (location.search) {
+        var parts = location.search.substring(1).split('&');
+
+        for (var i = 0; i < parts.length; i++) {
+            var nv = parts[i].split('=');
+            if (!nv[0]) continue;
+            params[nv[0]] = nv[1] || true;
+        }
+          
+    document.cookie = "ref=" + params.ref;
+    document.cookie = "reftype=1";
+    }
+
+ window.location = "index.html?ref=true"
+
+}
+
+</script>

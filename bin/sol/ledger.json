@@ -1,0 +1,10 @@
+{
+    "abi": "[{\"constant\":false,\"inputs\":[{\"name\":\"_tokensToLock\",\"type\":\"uint256\"},{\"name\":\"_proposalId\",\"type\":\"uint256\"}],\"name\":\"allocateTokens\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"tokensInCirculation\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"type\":\"function\"}]\n",
+    "bytecode": "",
+    "functionHashes": {
+        "allocateTokens(uint256,uint256)": "8fc264e0",
+        "tokensInCirculation()": "f5a0d6c0"
+    },
+    "gasEstimates": {},
+    "runtimeBytecode": ""
+}

@@ -1,0 +1,13 @@
+{
+    "abi": "[{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"address\"}],\"name\":\"memberId\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"clearDelegation\",\"outputs\":[{\"name\":\"success\",\"type\":\"bool\"}],\"payable\":false,\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"numMembers\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"members\",\"outputs\":[{\"name\":\"member\",\"type\":\"address\"},{\"name\":\"canVote\",\"type\":\"bool\"},{\"name\":\"memberSince\",\"type\":\"uint256\"},{\"name\":\"firstName\",\"type\":\"string\"},{\"name\":\"lastName\",\"type\":\"string\"},{\"name\":\"userID\",\"type\":\"string\"},{\"name\":\"delegated\",\"type\":\"bool\"},{\"name\":\"memberHash\",\"type\":\"bytes32\"},{\"name\":\"admin\",\"type\":\"bool\"}],\"payable\":false,\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"member\",\"type\":\"address\"},{\"name\":\"status\",\"type\":\"bool\"}],\"name\":\"updateDelegatedStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"type\":\"function\"}]\n",
+    "bytecode": "",
+    "functionHashes": {
+        "clearDelegation()": "3b632bb9",
+        "memberId(address)": "39106821",
+        "members(uint256)": "5daf08ca",
+        "numMembers()": "4698d110",
+        "updateDelegatedStatus(address,bool)": "caffcb05"
+    },
+    "gasEstimates": {},
+    "runtimeBytecode": ""
+}
